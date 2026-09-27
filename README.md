@@ -13,6 +13,20 @@
 [ 432 Hz  //  0x7FFF  //  96.0 kHz  //  MOROCCO ]
 </pre>
 
+<p align="center">
+  <a href="https://aminearheche.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-aminearheche.github.io-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=090d16" alt="Live Portfolio" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://aminearheche.github.io#lab" target="_blank">
+    <img src="https://img.shields.io/badge/🎛️_CREATIVE_LAB-DSP_SYNTH_432Hz-10b981?style=for-the-badge&labelColor=090d16" alt="Creative Lab" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://aminearheche.github.io#projects" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_PROJECTS-SHOWCASE-38bdf8?style=for-the-badge&labelColor=090d16" alt="Projects Showcase" />
+  </a>
+</p>
+
 <pre align="center">
  20Hz   60Hz   250Hz   1kHz   4kHz   12kHz  20kHz
   :      |       |      |      :       :      .  
@@ -35,6 +49,7 @@
 typedef struct {
     const char *identity;
     const char *origin;
+    const char *portfolio;    /* https://aminearheche.github.io */
     const char *core[4];       /* Python, React, MySQL, C */
     const char *canvas;        /* Logic & Waveforms */
     uint32_t    sample_rate;   /* 96000 */
@@ -45,6 +60,7 @@ typedef struct {
 SystemNode node = {
     .identity    = "Amine",
     .origin      = "Morocco",
+    .portfolio   = "https://aminearheche.github.io",
     .core        = { "Python", "React", "MySQL", "C" },
     .canvas      = "Architecture in 0s, 1s & Harmonics",
     .sample_rate = 96000,
