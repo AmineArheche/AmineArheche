@@ -79,16 +79,12 @@ SystemNode node = {
 <div align="center">
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmineArheche&theme=react-dark&bg_color=090d16&color=c084fc&line=38bdf8&point=f43f5e&hide_border=true" width="98%" alt="Graph" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=AmineArheche&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8" width="49%" alt="Amine's GitHub Stats" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=AmineArheche&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=c084fc&text_color=94a3b8" width="49%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmineArheche&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8" width="49%" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmineArheche&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=c084fc&text_color=94a3b8" width="49%" alt="Langs" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmineArheche&theme=tokyonight&hide_border=true&background=090d16&ring=c084fc&fire=f43f5e&currStreakLabel=38bdf8" width="98%" alt="Streak" />
+  <img src="https://streak-stats.demolab.com?user=AmineArheche&theme=tokyonight&hide_border=true&background=090d16&ring=c084fc&fire=f43f5e&currStreakLabel=38bdf8" width="98%" alt="GitHub Streak" />
 </p>
 
 </div>
