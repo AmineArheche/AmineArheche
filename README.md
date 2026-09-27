@@ -3,27 +3,30 @@
   <!-- Ambient Wave Header -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=160&section=header" width="100%" alt="Header" />
 
-  <h1 align="center" style="letter-spacing: 4px; font-weight: 800;">A M I N E</h1>
-
-  <p align="center" style="font-family: monospace; font-size: 13px; color: #64748b; letter-spacing: 2px;">
-    <code>[ 432 Hz  //  0x7FFF  //  96.0 kHz  //  MOROCCO ðŸ‡²ðŸ‡¦ ]</code>
-  </p>
-
-  <!-- Audio Spectrum / Oscilloscope ASCII Visualizer -->
 <pre align="center">
- 20Hz   60Hz   250Hz   1kHz   4kHz   12kHz   20kHz
-  â–„       â–ˆ      â–ˆ      â–ˆ      â–„       â–„       Â·  
-  â–ˆ       â–ˆ      â–ˆ      â–ˆ      â–ˆ       â–ˆ       â–„  
-  â–ˆ       â–ˆ      â–ˆ      â–ˆ      â–ˆ       â–ˆ       â–ˆ  
- â”€â”´â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”´â”€
-   â€¢  s i g n a l   i n   p h a s e   â€¢
+    _    __  __ ___ _   _ _____ 
+   / \  |  \/  |_ _| \ | | ____|
+  / _ \ | |\/| || ||  \| |  _|  
+ / ___ \| |  | || || |\  | |___ 
+/_/   \_\_|  |_|___|_| \_|_____|
+
+[ 432 Hz  //  0x7FFF  //  96.0 kHz  //  MOROCCO ]
+</pre>
+
+<pre align="center">
+ 20Hz   60Hz   250Hz   1kHz   4kHz   12kHz  20kHz
+  :      |       |      |      :       :      .  
+  |      |       |      |      |       |      :  
+ [#]    [#]     [#]    [#]    [#]     [#]    [#] 
+==+======+=======+======+======+=======+======+==
+             *  s i g n a l   i n   p h a s e  *
 </pre>
 
 </div>
 
 ---
 
-### âˆ¿ `resonance.c`
+### ~ resonance.c
 
 ```c
 #include <stdint.h>
@@ -41,7 +44,7 @@ typedef struct {
 
 SystemNode node = {
     .identity    = "Amine",
-    .origin      = "Morocco ðŸ‡²ðŸ‡¦",
+    .origin      = "Morocco",
     .core        = { "Python", "React", "MySQL", "C" },
     .canvas      = "Architecture in 0s, 1s & Harmonics",
     .sample_rate = 96000,
@@ -52,7 +55,7 @@ SystemNode node = {
 
 ---
 
-### âŒ Frequency & Tooling
+### + Frequency & Tooling
 
 <div align="center">
 
@@ -71,7 +74,7 @@ SystemNode node = {
 
 ---
 
-### âˆ¿ Telemetry
+### ~ Telemetry
 
 <div align="center">
 
@@ -95,11 +98,11 @@ SystemNode node = {
 <div align="center">
 
 ```text
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~   â”‚
-â”‚  "Structure carries the logic. Frequencies carry the rest."â”‚
-â”‚  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
++------------------------------------------------------------+
+|  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~   |
+|  "Structure carries the logic. Frequencies carry the rest."|
+|  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~   |
++------------------------------------------------------------+
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,2&height=70&section=footer" width="100%" alt="Footer" />
